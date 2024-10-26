@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <style>
+        body {
+            background: rgb(52, 126, 144);
+        }
+
+        h1 {
+            color: aliceblue;
+            box-shadow: 2px 0px 5px black;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        h2 {
+            font: normal 19px Arial black;
+            box-shadow: 2px 2px 2px rgb(127, 228, 237);
+        }
+
+        p {
+            font: normal 15px Arial;
+        }
+
+        pre {
+            background: rgb(255, 255, 255);
+            margin-right: 270px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 20px black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatado</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} e ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citções simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Diego Eis, no seu livro de HTML5 e CSS3 com farinha e HTML5 e CSS3 com farinha e pimenta:</p>
+    <blockquote
+        cite="https://www.google.com.br/books/edition/HTML5_e_CSS3_com_farinha_e_pimenta/nDKMAwAAQBAJ?hl=pt-BR&gbpv=1&dq=html5&pg=PA19&printsec=frontcover">
+        Era muito código! Desenvolvedores aninhavam tabelas como se não houvesse o dia de amanhã. Uma loucura.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr
+            title="Cascading Style Sheets">CSS</abbr>.</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+
+</html>
